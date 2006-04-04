@@ -1,3 +1,9 @@
+libxrender (1:0.9.0.2-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- David Nusinow <dnusinow@debian.org>  Thu, 23 Mar 2006 22:45:16 -0500
+
 libxrender (1:0.9.0.2-1) experimental; urgency=low
 
   * First upload to Debian
