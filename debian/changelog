@@ -1,4 +1,4 @@
-libxrender (1:0.9.1-1) UNRELEASED; urgency=low
+libxrender (1:0.9.1-1) experimental; urgency=low
 
   * New upstream release.
   * Autoreconf w/ an updated xutils-dev so that manpages have the 'x'
@@ -13,7 +13,7 @@ libxrender (1:0.9.1-1) UNRELEASED; urgency=low
   * Fix dh_strip call to skip the -dbg package.
   * Format changelog to not trigger lintian errors.
 
- -- Andres Salomon <dilinger@debian.org>  Mon, 17 Jul 2006 01:21:17 -0400
+ -- Andres Salomon <dilinger@debian.org>  Sat, 29 Jul 2006 16:27:07 -0400
 
 libxrender (1:0.9.0.2-4) unstable; urgency=low
 
