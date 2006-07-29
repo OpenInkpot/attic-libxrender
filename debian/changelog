@@ -1,5 +1,8 @@
-libxrender (1:0.9.0.2-5) UNRELEASED; urgency=low
+libxrender (1:0.9.1-1) UNRELEASED; urgency=low
 
+  * New upstream release.
+  * Autoreconf w/ an updated xutils-dev so that manpages have the 'x'
+    extension dropped.
   * Test for obj-$(DEB_BUILD_GNU_TYPE) before creating it during build;
     idempotency fi.
   * Run dh_install w/ --list-missing.
@@ -8,6 +11,7 @@ libxrender (1:0.9.0.2-5) UNRELEASED; urgency=low
     the rest of Debian.
   * Bump debhelper compat to 5.
   * Fix dh_strip call to skip the -dbg package.
+  * Format changelog to not trigger lintian errors.
 
  -- Andres Salomon <dilinger@debian.org>  Mon, 17 Jul 2006 01:21:17 -0400
 
@@ -302,6 +306,4 @@ xrender (0.8.1-1) unstable; urgency=low
 
  -- Branden Robinson <branden@debian.org>  Sun,  4 May 2003 13:14:54 -0500
 
-  $Id: changelog 94 2004-03-10 04:57:38Z branden $
-
-  vim:set ai tw=78 et sw=2 sts=2:
+vim:set ai tw=78 et sw=2 sts=2:
