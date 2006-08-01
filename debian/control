@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: David Nusinow <dnusinow@debian.org>, Branden Robinson <branden@debian.org>, Fabio M. Di Nitto <fabbione@fabbione.net>, Andres Salomon <dilinger@debian.org>
 Build-Depends: debhelper (>= 5.0.0), pkg-config, libx11-dev (>= 1:0.99.2-1), x11proto-render-dev, x11proto-core-dev
-Standards-Version: 3.7.2.0
+Standards-Version: 3.7.2
 
 Package: libxrender1
 Section: libs
