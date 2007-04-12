@@ -6,6 +6,7 @@ Uploaders: David Nusinow <dnusinow@debian.org>, Branden Robinson <branden@debian
 Build-Depends: debhelper (>= 5.0.0), pkg-config, libx11-dev (>= 1:0.99.2-1), x11proto-render-dev, x11proto-core-dev
 Standards-Version: 3.7.2
 XS-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxrender
+XS-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxrender.git
 
 Package: libxrender1
 Section: libs
