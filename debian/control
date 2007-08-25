@@ -28,7 +28,7 @@ Package: libxrender1-dbg
 Section: libdevel
 Priority: extra
 Architecture: any
-Depends: libxrender1 (= ${Source-Version}), ${shlibs:Depends}
+Depends: libxrender1 (= ${binary:Version}), ${shlibs:Depends}
 Description: X Rendering Extension client library (unstripped)
  The X Rendering Extension (Render) introduces digital image composition as
  the foundation of a new rendering model within the X Window System.
@@ -52,7 +52,7 @@ Description: X Rendering Extension client library (unstripped)
 Package: libxrender-dev
 Section: libdevel
 Architecture: any
-Depends: libxrender1 (= ${Source-Version}), libx11-dev (>= 2:1.0.0), x11proto-render-dev, x11proto-core-dev
+Depends: libxrender1 (= ${binary:Version}), libx11-dev (>= 2:1.0.0), x11proto-render-dev, x11proto-core-dev
 Pre-Depends: x11-common (>= 1:7.0.0)
 Description: X Rendering Extension client library (development files)
  The X Rendering Extension (Render) introduces digital image composition as

@@ -3,6 +3,7 @@ libxrender (1:0.9.3-1) UNRELEASED; urgency=low
   * New upstream release.
   * Add myself to Uploaders, and remove Branden and Fabio with their
     permission.
+  * Replace ${Source-Version}) with ${binary:Version}.
 
  -- Brice Goglin <bgoglin@debian.org>  Sat, 25 Aug 2007 11:41:18 +0200
 
