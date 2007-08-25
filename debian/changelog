@@ -1,4 +1,4 @@
-libxrender (1:0.9.3-1) UNRELEASED; urgency=low
+libxrender (1:0.9.3-1) unstable; urgency=low
 
   * New upstream release.
   * Add myself to Uploaders, and remove Branden and Fabio with their
