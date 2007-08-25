@@ -1,3 +1,15 @@
+commit 3fcca95b2628167be4c908a9a315f070eb195660
+Author: David Reveman <davidr@novell.com>
+Date:   Mon Aug 20 14:40:44 2007 -0400
+
+    Bump to 0.9.3
+
+commit 5b38b2d9b981d425587a4eb440acb2f0d6b0db13
+Author: David Reveman <davidr@novell.com>
+Date:   Mon Aug 20 14:38:33 2007 -0400
+
+    Properly set length field in gradient requests (bug 9526).
+
 commit 9fc870a4b68c2e7f5a7bcaca72d96fe105737bb5
 Author: Adam Jackson <ajax@benzedrine.nwnk.net>
 Date:   Fri Oct 13 16:26:35 2006 -0400
