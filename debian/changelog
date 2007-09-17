@@ -1,3 +1,12 @@
+libxrender (1:0.9.4-1) unstable; urgency=low
+
+  * New upstream release.
+    + Fix for renderproto 0.9.3, include Xlib.h before render.h in Xrender.h
+      (closes: #442824).
+  * Add myself to Uploaders.
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 17 Sep 2007 09:57:00 +0200
+
 libxrender (1:0.9.3-1) unstable; urgency=low
 
   * New upstream release.

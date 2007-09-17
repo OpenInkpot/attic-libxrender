@@ -1,3 +1,18 @@
+commit 497dda5615d0484d34f3a0a580353ac10ceaced5
+Author: Eric Anholt <eric@anholt.net>
+Date:   Wed Sep 5 08:20:33 2007 -0700
+
+    Bump version to 0.9.4.
+
+commit 89bc96e2c10c3902b82d74da95608bb48319ad29
+Author: Paul Bender <pebender@san.rr.com>
+Date:   Wed Sep 5 08:19:55 2007 -0700
+
+    Reorder render.h include so that XID has been picked up by then.
+    
+    While libXrender built fine. some software requiring libXrender didn't include
+    Xlib.h beforehand.
+
 commit 3fcca95b2628167be4c908a9a315f070eb195660
 Author: David Reveman <davidr@novell.com>
 Date:   Mon Aug 20 14:40:44 2007 -0400
