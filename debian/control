@@ -15,7 +15,7 @@ Depends: ${shlibs:Depends}
 Description: X Rendering Extension client library
  The X Rendering Extension (Render) introduces digital image composition as
  the foundation of a new rendering model within the X Window System.
- Rendering geometric figures is accomplished by client-side tesselation into
+ Rendering geometric figures is accomplished by client-side tessellation into
  either triangles or trapezoids.  Text is drawn by loading glyphs into the
  server and rendering sets of them.  The Xrender library exposes this
  extension to X clients.
@@ -32,7 +32,7 @@ Depends: libxrender1 (= ${binary:Version}), ${shlibs:Depends}
 Description: X Rendering Extension client library (unstripped)
  The X Rendering Extension (Render) introduces digital image composition as
  the foundation of a new rendering model within the X Window System.
- Rendering geometric figures is accomplished by client-side tesselation into
+ Rendering geometric figures is accomplished by client-side tessellation into
  either triangles or trapezoids.  Text is drawn by loading glyphs into the
  server and rendering sets of them.  The Xrender library exposes this
  extension to X clients.
@@ -57,7 +57,7 @@ Pre-Depends: x11-common (>= 1:7.0.0)
 Description: X Rendering Extension client library (development files)
  The X Rendering Extension (Render) introduces digital image composition as
  the foundation of a new rendering model within the X Window System.
- Rendering geometric figures is accomplished by client-side tesselation into
+ Rendering geometric figures is accomplished by client-side tessellation into
  either triangles or trapezoids.  Text is drawn by loading glyphs into the
  server and rendering sets of them.  The Xrender library exposes this
  extension to X clients.

@@ -1,3 +1,9 @@
+libxrender (1:0.9.4-2) UNRELEASED; urgency=low
+
+  * Fix typo in long descriptions, thanks Justin Pryzby, closes: #459819.
+
+ -- Brice Goglin <bgoglin@debian.org>  Wed, 09 Jan 2008 00:20:10 +0100
+
 libxrender (1:0.9.4-1) unstable; urgency=low
 
   * New upstream release.
