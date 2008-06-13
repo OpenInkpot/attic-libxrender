@@ -1,3 +1,30 @@
+commit f6f784c0f98c28915bd26d04e4d8839806e29877
+Author: Pierre-Loup Griffais <pgriffais@nvidia.com>
+Date:   Fri Apr 18 17:32:32 2008 -0700
+
+    Use Data instead of Data32 to avoid truncating the filter parameters on 64-bit systems.
+    
+    Signed-off-by: Aaron Plattner <aplattner@nvidia.com>
+
+commit 5653231fcde636e4215c70b1e436554e1ffe07a7
+Author: Matthieu Herrb <matthieu.herrb@laas.fr>
+Date:   Sun Mar 9 08:39:12 2008 +0100
+
+    nuke RCS Ids
+
+commit e1333b82c0f6e7b9acdbae19d18377a0ed65bddb
+Author: James Cloos <cloos@jhcloos.com>
+Date:   Thu Dec 6 16:38:43 2007 -0500
+
+    Replace static ChangeLog with dist-hook to generate from git log
+
+commit e10d5cbe4c5ed98ae1856e20a0e9d31321330d53
+Merge: 497dda5... 9d3f9fd...
+Author: Eric Anholt <eric@anholt.net>
+Date:   Wed Sep 5 08:25:12 2007 -0700
+
+    Merge branch 'master' of git+ssh://git.freedesktop.org/git/xorg/lib/libXrender
+
 commit 497dda5615d0484d34f3a0a580353ac10ceaced5
 Author: Eric Anholt <eric@anholt.net>
 Date:   Wed Sep 5 08:20:33 2007 -0700
@@ -12,6 +39,12 @@ Date:   Wed Sep 5 08:19:55 2007 -0700
     
     While libXrender built fine. some software requiring libXrender didn't include
     Xlib.h beforehand.
+
+commit 9d3f9fd3f6f37112fecb2e96e9b25eb860a4b67d
+Author: James Cloos <cloos@jhcloos.com>
+Date:   Mon Sep 3 05:53:49 2007 -0400
+
+    Add *~ to .gitignore to skip patch/emacs droppings
 
 commit 3fcca95b2628167be4c908a9a315f070eb195660
 Author: David Reveman <davidr@novell.com>
