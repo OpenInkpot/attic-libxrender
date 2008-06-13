@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: David Nusinow <dnusinow@debian.org>, Andres Salomon <dilinger@debian.org>, Brice Goglin <bgoglin@debian.org>, Julien Cristau <jcristau@debian.org>
 Build-Depends: debhelper (>= 5.0.0), pkg-config, libx11-dev (>= 1:0.99.2-1), x11proto-render-dev, x11proto-core-dev
-Standards-Version: 3.7.2
-XS-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxrender
-XS-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxrender.git
+Standards-Version: 3.7.3
+Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxrender
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxrender.git
 
 Package: libxrender1
 Section: libs
@@ -21,8 +21,12 @@ Description: X Rendering Extension client library
  extension to X clients.
  .
  More information about X.Org can be found at:
+ <URL:http://www.X.org>
  <URL:http://xorg.freedesktop.org>
  <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrender
 
 Package: libxrender1-dbg
 Section: libdevel
@@ -46,8 +50,12 @@ Description: X Rendering Extension client library (unstripped)
  executed.  Non-programmers will likely have little use for this package.
  .
  More information about X.Org can be found at:
+ <URL:http://www.X.org>
  <URL:http://xorg.freedesktop.org>
  <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrender
 
 Package: libxrender-dev
 Section: libdevel
@@ -65,5 +73,9 @@ Description: X Rendering Extension client library (development files)
  This package provides a static library and C header files.
  .
  More information about X.Org can be found at:
+ <URL:http://www.X.org>
  <URL:http://xorg.freedesktop.org>
  <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXrender
