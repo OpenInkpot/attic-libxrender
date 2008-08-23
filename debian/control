@@ -1,15 +1,17 @@
 Source: libxrender
-Section: x11
+Section: gui
 Priority: optional
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: David Nusinow <dnusinow@debian.org>, Andres Salomon <dilinger@debian.org>, Brice Goglin <bgoglin@debian.org>, Julien Cristau <jcristau@debian.org>
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
 Build-Depends: debhelper (>= 5.0.0), pkg-config, libx11-dev (>= 1:0.99.2-1), x11proto-render-dev, x11proto-core-dev
 Standards-Version: 3.7.3
-Vcs-Git: git://git.debian.org/git/pkg-xorg/lib/libxrender
-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/lib/libxrender.git
+Vcs-Git: git://git.openinkpot.org/libxrender.git
+Vcs-Browser: http://git.openinkpot.org/libxrender.git
+XCS-Cross-Host-Build-Depends: debhelper (>= 5.0.0), pkg-config
+XCS-Cross-Build-Depends: libx11-dev (>= 1:0.99.2-1), x11proto-render-dev, x11proto-core-dev
+
 
 Package: libxrender1
-Section: libs
+Section: gui
 Architecture: any
 Depends: ${shlibs:Depends}
 Description: X Rendering Extension client library
@@ -29,7 +31,7 @@ Description: X Rendering Extension client library
  git://anongit.freedesktop.org/git/xorg/lib/libXrender
 
 Package: libxrender1-dbg
-Section: libdevel
+Section: debug
 Priority: extra
 Architecture: any
 Depends: libxrender1 (= ${binary:Version}), ${shlibs:Depends}

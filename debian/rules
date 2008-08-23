@@ -31,6 +31,8 @@ else
 	confflags += --build=$(DEB_BUILD_GNU_TYPE) --host=$(DEB_HOST_GNU_TYPE)
 endif
 
+# Cross-compilation can't check it
+confflags += --enable-malloc0returnsnull
 
 build: build-stamp
 build-stamp:
@@ -71,9 +73,13 @@ binary-arch: build install
 	dh_testdir
 	dh_testroot
 
+ifneq (,$(findstring docs,$(DEB_BUILD_OPTIONS)))
 	dh_installdocs
+endif
 	dh_install --sourcedir=debian/tmp --list-missing
+ifneq (,$(findstring docs,$(DEB_BUILD_OPTIONS)))
 	dh_installchangelogs ChangeLog
+endif
 	dh_link
 	dh_strip --dbg-package=$(PACKAGE)-dbg
 	dh_compress
